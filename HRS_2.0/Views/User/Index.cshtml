@@ -1,0 +1,164 @@
+﻿@model IEnumerable<HRS_2.Models.User>
+
+@{
+    ViewData["Title"] = "Senarai Pengguna";
+
+
+}
+<link rel="stylesheet" href="~/css/styles.css" />
+
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<div class="container">
+    <div class="permohonan-container">
+        <div class="details-header">
+            <h3 class="mb-0">Senarai Pengguna</h3>
+        </div>
+
+     
+
+        <div class="search-section">
+            <div class="col-md-3">
+                <a asp-action="Create" class="btn btn-success">
+                    <i class="fas fa-plus"></i> Tambah Pengguna
+                </a>
+            </div>
+        </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-hover" id="myTable">
+                    <thead>
+                        <tr>
+                            <th style="width:50px;">Id Staff</th>
+                            <th>Username</th>
+                            <th style="width:210px;">Nama</th>
+                            <th style="width:50px;">Role</th>
+                          
+                            <th>Tindakan</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.NoPekerja</td>
+                                <td>@item.Username</td>
+                                <td>@item.Nama</td>
+                                <td>@item.Roles</td>
+                               
+
+                            <td class="action-buttons">
+                                <a asp-action="Edit" asp-route-noPekerja="@item.NoPekerja" class="btn btn-warning btn-sm"
+                                   data-bs-toggle="tooltip" data-bs-placement="top" title="Kemaskini">
+                                    <i class="fas fa-edit"></i> <span class="ms-1"></span>
+                                </a>
+
+                                <button type="button" class="btn btn-danger btn-sm delete-btn ms-2"
+                                title = "Padam"
+                                        data-bs-toggle="modal"
+                                        data-bs-target="#deleteModal"
+                                        data-id="@item.NoPekerja"
+                                        data-username="@item.Username"
+                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Padam">
+                                    <i class="fas fa-trash"></i> <span class="ms-1"></span>
+                                </button>
+                            </td>
+
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function () {
+                                    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+                                    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+                                        return new bootstrap.Tooltip(tooltipTriggerEl);
+                                    });
+                                });
+                            </script>
+
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+@* Delete Confirmation Modal *@
+<div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Sahkan Padam</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Adakah anda pasti mahu padam pengguna: <strong id="deleteUsername"></strong>?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <form id="deleteForm" method="post" asp-action="DeleteConfirmed">
+                    <input type="hidden" name="noPekerja" id="deleteItemId" />
+                    <button type="submit" class="btn btn-danger">Padam</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" />
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            // Initialize DataTable
+                var table = $('#myTable').DataTable({
+                    responsive: true,
+                    pageLength: 10,
+                    lengthMenu: [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+                    language: {
+                        search: "_INPUT_",
+                        searchPlaceholder: "Cari rekod",
+                        lengthMenu: "Menunjukkan _MENU_ entri",
+                        info: "Menunjukkan _START_ hingga _END_ daripada _TOTAL_ entri",
+                        paginate: {
+                            first: "Pertama",
+                            last: "Terakhir",
+                            next: "Seterusnya",
+                            previous: "Sebelumnya"
+                        }
+                    }
+                });
+
+
+            // Use event delegation for delete buttons
+            // This will work for all pages in the DataTable
+            $(document).on('click', '.delete-btn', function () {
+                var itemId = $(this).data('id');
+                var username = $(this).data('username');
+
+                console.log("Setting itemId:", itemId);
+                console.log("Setting username:", username);
+
+                $('#deleteItemId').val(itemId);
+                $('#deleteUsername').text(username);
+            });
+
+            // Show/hide scroll indicator based on table overflow
+            function checkTableOverflow() {
+                var tableWidth = $(".table").width();
+                var containerWidth = $(".table-responsive").width();
+
+                if (tableWidth > containerWidth) {
+                    $(".table-scroll-indicator").show();
+                } else {
+                    $(".table-scroll-indicator").hide();
+                }
+            }
+
+            checkTableOverflow();
+            $(window).resize(checkTableOverflow);
+        });
+    </script>
+    
+}
+

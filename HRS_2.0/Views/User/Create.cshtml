@@ -1,0 +1,207 @@
+﻿@model HRS_2.Models.User
+@{
+    ViewData["Title"] = "Tambah Pengguna";
+    Layout = "_Style.cshtml";
+
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert" id="errorAlert">
+        <i class="fas fa-exclamation-circle me-2"></i>
+        @TempData["ErrorMessage"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="container">
+    <div class="form-container">
+        <div class="details-header">
+            <h3 class="mb-0">Tambah Maklumat Pengguna</h3>
+        </div>
+
+        <div id="MessagePanel" class="alert alert-danger" style="display: none;">
+            <span id="MessageLabel"></span>
+        </div>
+
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <h4 class="section-title"><i class="fas fa-user me-2"></i>Maklumat Pengguna</h4>
+
+            @if (!string.IsNullOrEmpty(ViewData["UsernameNoPekerjaError"] as string))
+{
+    <div class="text-danger">
+        @ViewData["UsernameNoPekerjaError"]
+    </div>
+}
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="NoPekerja"></label>
+                        <input asp-for="NoPekerja" class="form-control" id="NoPekerja" />
+                        <span asp-validation-for="NoPekerja" class="text-danger"></span>
+                        <span id="noPekerjaError" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Nama"></label>
+                        <input asp-for="Nama" class="form-control" />
+                        <span asp-validation-for="Nama" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label asp-for="Username"></label>
+                        <input asp-for="Username" class="form-control" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                      <span id="usernameError" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label asp-for="Password"></label>
+                        <input type="password" asp-for="Password" class="form-control" id="passwordField" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" asp-for="UseWindowsAuth" id="useWindowsAuth" />
+                            <label class="form-check-label" asp-for="UseWindowsAuth">Windows Authentication</label>
+                        </div>
+                        <span asp-validation-for="UseWindowsAuth" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Roles" class="control-label"></label>
+                        <select asp-for="Roles" class="form-control custom-dropdown">
+                            <option value="Admin">Admin</option>
+                            <option value="User">User</option>
+                        </select>
+                        <span asp-validation-for="Roles" class="text-danger"></span>
+                    </div>
+                   
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" asp-for="Email" />
+                            <label class="form-check-label" asp-for="Email">Pemberitahuan Email Pemohonan</label>
+                        </div>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                  
+
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" asp-for="BlockUser" />
+                            <label class="form-check-label" asp-for="BlockUser">Sekat Akaun</label>
+                        </div>
+                        <span asp-validation-for="BlockUser" class="text-danger"></span>
+                    </div>
+
+                   
+
+                   
+                </div>
+            </div>
+
+
+            <div class="text-center mt-4">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane me-2"></i>Kemaskini Pengguna
+                </button>
+            </div>
+        </form>
+
+        <div class="text-center mt-3">
+            <a asp-action="Index" class="back-link">
+                <i class="fas fa-arrow-left me-1"></i> Kembali ke Senarai Pengguna
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<div id="spinner" class="spinner">
+    <div class="spinner-content">
+        <div class="spinner-circle"></div>
+        <div class="spinner-text">Memproses...</div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const passwordField = document.getElementById("passwordField");
+            const useWindowsAuth = document.getElementById("useWindowsAuth");
+
+            function togglePasswordField() {
+                if (useWindowsAuth.checked) {
+                    passwordField.value = ""; // Clears the password
+                    passwordField.disabled = true; // Disables input
+                } else {
+                    passwordField.disabled = false; // Enables input
+                }
+            }
+
+            // Run function on page load (for pre-checked state)
+            togglePasswordField();
+
+            // Attach event listener
+            useWindowsAuth.addEventListener("change", togglePasswordField);
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Check Username Availability
+            $("#Username").blur(function () {
+                var username = $(this).val();
+                if (username.length > 0) {
+                    $.ajax({
+                        url: "/User/CheckUsername",
+                        type: "GET",
+                        data: { username: username },
+                        success: function (response) {
+                            if (!response.isAvailable) {
+                                $("#usernameError").text("This username is already taken. Please choose another one.");
+                            } else {
+                                $("#usernameError").text("");
+                            }
+                        }
+                    });
+                }
+            });
+
+            // Check NoPekerja Availability
+            $("#NoPekerja").blur(function () {
+                var noPekerja = $(this).val();
+                if (noPekerja.length > 0) {
+                    $.ajax({
+                        url: "/User/CheckNoPekerja",
+                        type: "GET",
+                        data: { noPekerja: noPekerja },
+                        success: function (response) {
+                            if (!response.isAvailable) {
+                                $("#noPekerjaError").text("This No Pekerja is already in use. Please enter a different one.");
+                            } else {
+                                $("#noPekerjaError").text("");
+                            }
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+}

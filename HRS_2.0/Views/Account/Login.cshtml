@@ -1,0 +1,220 @@
+﻿@{
+    ViewData["Title"] = "Log Masuk";
+    Layout = null; // Using null layout for login page
+}
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log Masuk - TeKarSistem</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
+
+    <style>
+        :root {
+            --primary-color: #D85C19; /* Orange Brick Color */
+            --text-color: #333;
+            --background-color: #f7f7f7; /* Light background */
+            --card-background: #ffffff;
+            --accent-color: #FF6F00; /* Slightly darker orange for buttons */
+        }
+
+        body {
+            background-color: var(--background-color);
+            font-family: 'Inter', sans-serif;
+            color: var(--text-color);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+        }
+
+        .login-container {
+            width: 100%;
+            max-width: 380px;
+            background: var(--card-background);
+            border-radius: 12px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            padding: 35px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+            .login-header .logo {
+                color: var(--primary-color);
+                font-size: 36px;
+                margin-bottom: 15px;
+            }
+
+            .login-header h3 {
+                margin: 0;
+                font-weight: 600;
+                font-size: 24px;
+                color: var(--text-color);
+            }
+
+            .login-header p {
+                color: #888;
+                font-size: 14px;
+                margin-top: 5px;
+            }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 14px 18px;
+            border: 1px solid #ccc;
+            margin-bottom: 18px;
+            font-size: 16px;
+        }
+
+            .form-control:focus {
+                box-shadow: 0 0 0 3px rgba(255, 111, 0, 0.2);
+                border-color: var(--primary-color);
+            }
+
+        .form-check {
+            margin: 5px 0 20px;
+        }
+
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .btn-login {
+            background-color: var(--primary-color);
+            border: none;
+            border-radius: 8px;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 14px;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+            .btn-login:hover {
+                background-color: #e65c00; /* Slightly darker shade of orange */
+            }
+
+        .forgot-password {
+            text-align: center;
+            margin-top: 18px;
+            font-size: 14px;
+        }
+
+            .forgot-password a {
+                color: var(--primary-color);
+                text-decoration: none;
+            }
+
+                .forgot-password a:hover {
+                    text-decoration: underline;
+                }
+
+        .copyright-text {
+            position: fixed;
+            bottom: 20px; /* Position at the bottom */
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 4px;
+            z-index: 1; /* Ensure it appears above the background image */
+        }
+
+        /* Spinner Styles */
+        .spinner-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spinner-border {
+            width: 50px;
+            height: 50px;
+            border-width: 5px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-header">
+            <div class="logo">
+                <i class="fas fa-user-cog"></i>
+            </div>
+            <h3>Sistem eBiodata</h3>
+            <p>KUMPULAN MEDIA KARANGKRAF SDN BHD</p>
+        </div>
+
+        <!-- Updated form to point to the correct controller and action -->
+        <form id="form" method="post" asp-action="Login" asp-controller="Account">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Display any error messages from the controller -->
+            @if (ViewBag.ErrorMessage != null)
+            {
+                <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+            }
+
+            <input type="text" name="Username" class="form-control" placeholder="Nama Pengguna" required autofocus />
+            <input type="password" name="Password" class="form-control" placeholder="Kata Laluan" required />
+
+            <div class="form-check" style="display: none;">
+                <input class="form-check-input" type="checkbox" name="RememberMe" id="rememberMe" value="true" checked>
+                <label class="form-check-label" for="rememberMe">Scan QR?</label>
+            </div>
+
+            <button type="submit" class="btn btn-login">
+                Log Masuk
+            </button>
+        </form>
+    </div>
+    <br>
+
+    <p style="color:white">&copy; Copyright to Karangkraf</p>
+
+  @*   <video autoplay muted loop playsinline
+           style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">
+        <source src="~/images/w3.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> *@
+
+    <!-- Spinner Overlay -->
+    <div class="spinner-overlay" id="loading-overlay">
+        <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#form').on('submit', function () {
+                $('#loading-overlay').css('display', 'flex');  // Show spinner
+            });
+        });
+    </script>
+</body>
+</html>
