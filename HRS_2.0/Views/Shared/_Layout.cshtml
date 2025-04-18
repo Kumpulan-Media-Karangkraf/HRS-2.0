@@ -8,39 +8,316 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/HRS_2._0.styles.css" asp-append-version="true" />
 </head>
+<style>
+    :root {
+        --primary-color: #FF6B00; /* Bold Vivid Orange */
+        --secondary-color: #FF8C42; /* Strong Soft Orange */
+        --accent-color: #FFA94D; /* Warm Golden Orange */
+        --background-color: #FFF3E0; /* Light Creamy Orange */
+        --text-color: #3B1F00; /* Deep Brown for high contrast */
+        --card-background: #FFFFFF; /* Clean white background */
+        --hover-color: #FF7A1A; /* Bright Orange Hover */
+        --success-color: #86BA86; /* Balanced soft green */
+        --warning-color: #FFC107; /* Bright Yellow-Orange */
+        --danger-color: #E65100; /* Darker Burnt Orange */
+        --header-gradient-start: #FF6B00; /* Vivid Orange */
+        --header-gradient-end: #D35400; /* Darker Fiery Orange */
+        --table-header-bg: #FFE0C2; /* Soft Orange Cream */
+        --table-header-text: #3B1F00; /* Deep Brown for table headers */
+        --border-color: #FFB37D; /* Soft Warm Orange Border */
+    }
+
+
+    body {
+        background-color: #f5f5f0;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: var(--text-color);
+        line-height: 1.6;
+    }
+
+    .permohonan-container {
+        background: var(--card-background);
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        padding: 21px;
+        margin-top: 50px;
+        border-left: 7px solid var(--primary-color);
+        transition: transform 0.3s ease;
+    }
+
+        .permohonan-container:hover {
+            transform: translateY(-5px);
+        }
+
+    .details-header {
+        background: linear-gradient(135deg, var(--header-gradient-start), var(--header-gradient-end));
+        color: white;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-section {
+        background-color: rgba(242, 196, 114, 0.15);
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .btn {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 20px;
+        padding: 8px 16px;
+        transition: all 0.3s ease;
+    }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+    .btn-success {
+        background: var(--success-color);
+        border: none;
+    }
+
+    .btn-primary {
+        background: var(--primary-color);
+        border: none;
+    }
+
+    .btn-warning {
+        background: var(--warning-color);
+        border: none;
+        color: white;
+    }
+
+    .btn-danger {
+        background: var(--danger-color);
+        border: none;
+    }
+
+    .form-control {
+        border-radius: 20px;
+        padding: 8px 15px;
+        border: 1px solid var(--border-color);
+        transition: all 0.3s ease;
+    }
+
+        .form-control:focus {
+            box-shadow: 0 0 0 3px rgba(195, 90, 44, 0.25);
+            border-color: var(--primary-color);
+        }
+
+    .table {
+        background: white;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+        .table th {
+            background-color: var(--table-header-bg);
+            color: var(--table-header-text);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .table td {
+            vertical-align: middle;
+            font-size: 14px;
+            padding: 12px;
+            border-bottom: 1px solid rgba(232, 201, 183, 0.3);
+        }
+
+    .status-baru {
+        color: var(--success-color);
+        font-weight: bold;
+    }
+
+    .status-diluluskan {
+        color: var(--primary-color);
+        font-weight: bold;
+    }
+
+    .status-Tidak-Lulus {
+        color: var(--danger-color);
+        font-weight: bold;
+    }
+
+    .status-selesai {
+        color: var(--secondary-color);
+        font-weight: bold;
+    }
+
+    .pagination .page-item.active .page-link {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+    }
+
+    .pagination .page-link {
+        color: var(--primary-color);
+    }
+
+        .pagination .page-link:hover {
+            background-color: var(--accent-color);
+            color: var(--text-color);
+        }
+
+    .action-buttons .btn {
+        margin-right: 5px;
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .table-responsive-wrapper {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin-bottom: 1rem;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    .modal-header {
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .modal-content {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button.current {
+        background: var(--primary-color) !important;
+        color: white !important;
+        border: 1px solid var(--primary-color) !important;
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+        background: var(--hover-color) !important;
+        color: white !important;
+        border: 1px solid var(--hover-color) !important;
+    }
+
+    .dataTables_wrapper .dataTables_filter input {
+        border: 1px solid var(--border-color);
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+
+    .dataTables_wrapper .dataTables_length select {
+        border: 1px solid var(--border-color);
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+
+    .navbar {
+        background-color: #fff !important; /* White background */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        padding: 12px 0;
+        border-bottom: 4px solid #FF8C42 !important; /* Orange border at bottom */
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 10px;
+    }
+
+    .navbar-nav .nav-link {
+        color: var(--primary-color) !important; /* Using your existing orange color for text */
+        font-weight: 500;
+        position: relative;
+        padding: 8px 15px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+    }
+
+        .navbar-nav .nav-link:hover {
+            background-color: rgba(255, 107, 0, 0.1); /* Very light orange background on hover */
+            transform: translateY(-2px);
+        }
+
+        .navbar-nav .nav-link.active {
+            background-color: rgba(255, 107, 0, 0.15);
+            color: #FF6B00 !important; /* Slightly darker for active state */
+        }
+
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* remove space caused by dropdown */
+    }
+
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-p...==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">HRS_2._0</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <div class="collapse navbar-collapse justify-content-center">
+                    <ul class="navbar-nav">
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                                <i class="fas fa-home me-1"></i> Home
+                            </a>
                         </li>
+
+                        <!-- Dropdown for Management -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#" id="managementDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-cogs me-1"></i> Pengurusan
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="managementDropdown">
+                                <li>
+                                    <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="Index">
+                                        <i class="fas fa-users me-1"></i> Pengguna
+                                    </a>
+                                </li>
+                                @*
+                                <li>
+                                <a class="dropdown-item" asp-area="" asp-controller="Company" asp-action="Index">
+                                <i class="fas fa-building me-1"></i> Company
+                                </a>
+                                </li>
+                                *@
+                            </ul>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index">User Management</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Login" asp-action="Login">
+                                <i class="fas fa-sign-out-alt me-1"></i> Log Keluar
+                            </a>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - HRS_2._0 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

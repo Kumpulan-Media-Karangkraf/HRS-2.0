@@ -1,73 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HRS2.0\\HRS_2.0\\",
+  "WorkspaceRootPath": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\models\\v_stafflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\models\\v_stafflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\wwwroot\\css\\styles.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\wwwroot\\css\\styles.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\models\\v_stafflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\models\\v_stafflist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\wwwroot\\css\\styles.css||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\wwwroot\\css\\styles.css||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\repositories\\implementation\\activitydirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\repositories\\implementation\\activitydirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\repositories\\implementation\\activitydirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\hrs2.0\\hrs_2.0\\hrs_2.0\\repositories\\abstract\\iactivedirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\repositories\\abstract\\iactivedirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\repositories\\abstract\\iactivedirectoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -77,83 +77,121 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 189,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 226,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Index.cshtml",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-17T04:29:42.062Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\UserController.cs",
               "RelativeToolTip": "HRS_2.0\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAIwHkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-17T01:01:01.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-17T04:30:55.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Edit.cshtml",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\User\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAJwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-17T04:30:34.469Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABgAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-17T04:28:14.525Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\appsettings.json",
+              "RelativeDocumentMoniker": "HRS_2.0\\appsettings.json",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\appsettings.json",
+              "RelativeToolTip": "HRS_2.0\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-17T01:09:21.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "HRS_2.0\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAtwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T03:56:24.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "v_stafflist.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\v_stafflist.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Models\\v_stafflist.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\v_stafflist.cs",
+              "RelativeToolTip": "HRS_2.0\\Models\\v_stafflist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:31:39.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "styles.css",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "HRS_2.0\\wwwroot\\css\\styles.css",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeToolTip": "HRS_2.0\\wwwroot\\css\\styles.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAkwL4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-17T06:04:37.167Z",
               "EditorCaption": ""
@@ -161,150 +199,103 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "v_stafflist.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Models\\v_stafflist.cs",
-              "RelativeDocumentMoniker": "HRS_2.0\\Models\\v_stafflist.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Models\\v_stafflist.cs",
-              "RelativeToolTip": "HRS_2.0\\Models\\v_stafflist.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:31:39.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Data\\DatabaseContext.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
               "RelativeToolTip": "HRS_2.0\\Data\\DatabaseContext.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwCoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:00:35.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T01:00:35.781Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\Account\\Login.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\Account\\Login.cshtml",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Account\\Login.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAMYAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T04:03:26.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Models\\User.cs",
-              "RelativeDocumentMoniker": "HRS_2.0\\Models\\User.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Models\\User.cs",
-              "RelativeToolTip": "HRS_2.0\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:10:48.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "HRS_2.0\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAtwCQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:56:24.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T04:03:26.816Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\User.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Models\\User.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\User.cs",
+              "RelativeToolTip": "HRS_2.0\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:10:48.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "styles.css",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "HRS_2.0\\wwwroot\\css\\styles.css",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeToolTip": "HRS_2.0\\wwwroot\\css\\styles.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAM0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-17T05:53:15.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T05:53:15.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\HomeController.cs",
               "RelativeToolTip": "HRS_2.0\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T04:27:36.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T04:27:36.62Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Program.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Program.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Program.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Program.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Program.cs",
               "RelativeToolTip": "HRS_2.0\\Program.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwC0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:08:56.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T01:08:56.168Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ActivityDirectoryService.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
               "RelativeToolTip": "HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAowDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:58:38.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\appsettings.json",
-              "RelativeDocumentMoniker": "HRS_2.0\\appsettings.json",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\appsettings.json",
-              "RelativeToolTip": "HRS_2.0\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-17T01:09:21.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T03:58:38.17Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "IActiveDirectoryService.cs",
-              "DocumentMoniker": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
-              "ToolTip": "D:\\HRS2.0\\HRS_2.0\\HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
               "RelativeToolTip": "HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:57:55.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T03:57:55.633Z"
             }
           ]
         },
         {
-          "DockedWidth": 77,
+          "DockedWidth": 40,
           "SelectedChildIndex": -1,
           "Children": [
             {
