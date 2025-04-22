@@ -42,7 +42,7 @@ namespace HRS_2._0.Controllers
             // First try AD authentication
             if (_adService.IsAuthenticated("localnet.mynet", username, password, out var errorMessage))
             {
-                var adUser = new User { Username = username, Roles = "User", Nama = username };
+                var adUser = new User  { Username = username, Roles = "User", Nama = username };
                 SignInUser(adUser);
                 return RedirectToAction("Index", "Home");
             }

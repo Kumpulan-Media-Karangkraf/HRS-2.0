@@ -21,8 +21,8 @@ namespace HRS_2.Models.Domain
 
       
         public DbSet<User> User { get; set; }
-        
 
+        public DbSet<ItemSetup> ItemSetup { get; set; }
         public DbSet<v_stafflist> v_stafflist { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

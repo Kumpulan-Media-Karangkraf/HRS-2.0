@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\itemsetup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\itemsetup\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\itemsetup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\itemsetup\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\itemsetupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\itemsetupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\models\\itemsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\models\\itemsetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\views\\user\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -33,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|solutionrelative:hrs_2.0\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC38D5C1-3F07-4AB4-849F-A56EF1E77FDC}|HRS_2.0\\HRS_2.0.csproj|d:\\github\\kumpulan-media-karangkraf\\hrs\\hrs-2.0\\hrs_2.0\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,23 +94,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 226,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\ItemSetup\\Index.cshtml",
+              "RelativeDocumentMoniker": "HRS_2.0\\Views\\ItemSetup\\Index.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\ItemSetup\\Index.cshtml",
+              "RelativeToolTip": "HRS_2.0\\Views\\ItemSetup\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T09:23:55.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemSetup.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\ItemSetup.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Models\\ItemSetup.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\ItemSetup.cs",
+              "RelativeToolTip": "HRS_2.0\\Models\\ItemSetup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:19:00.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Data\\DatabaseContext.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
+              "RelativeToolTip": "HRS_2.0\\Data\\DatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T01:00:35.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Index.cshtml",
               "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Index.cshtml",
               "RelativeToolTip": "HRS_2.0\\Views\\User\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIMAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T04:29:42.062Z"
+              "WhenOpened": "2025-04-17T04:29:42.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABABAAAAAAAAAAAAACUBAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:28:14.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Create.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
+              "RelativeToolTip": "HRS_2.0\\Views\\User\\Create.cshtml",
+              "ViewState": "AgIAALYAAAAAAAAAAAAuwN8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:30:55.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\ItemSetup\\Create.cshtml",
+              "RelativeDocumentMoniker": "HRS_2.0\\Views\\ItemSetup\\Create.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\ItemSetup\\Create.cshtml*",
+              "RelativeToolTip": "HRS_2.0\\Views\\ItemSetup\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-21T09:24:06.938Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ItemSetupController.cs",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\ItemSetupController.cs",
+              "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\ItemSetupController.cs",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\ItemSetupController.cs",
+              "RelativeToolTip": "HRS_2.0\\Controllers\\ItemSetupController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T09:20:41.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
+              "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Edit.cshtml",
+              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
+              "RelativeToolTip": "HRS_2.0\\Views\\User\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-17T04:30:34.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\UserController.cs",
@@ -106,45 +226,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
-              "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Create.cshtml",
-              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Create.cshtml",
-              "RelativeToolTip": "HRS_2.0\\Views\\User\\Create.cshtml",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T04:30:55.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
-              "RelativeDocumentMoniker": "HRS_2.0\\Views\\User\\Edit.cshtml",
-              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\User\\Edit.cshtml",
-              "RelativeToolTip": "HRS_2.0\\Views\\User\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T04:30:34.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "HRS_2.0\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwDYBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-17T04:28:14.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\appsettings.json",
               "RelativeDocumentMoniker": "HRS_2.0\\appsettings.json",
@@ -156,19 +238,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\AccountController.cs",
               "RelativeToolTip": "HRS_2.0\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAtwD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAD4vycAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T03:56:24.567Z"
+              "WhenOpened": "2025-04-17T03:56:24.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "v_stafflist.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\v_stafflist.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Models\\v_stafflist.cs",
@@ -180,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "styles.css",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "HRS_2.0\\wwwroot\\css\\styles.css",
@@ -192,19 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "HRS_2.0\\Data\\DatabaseContext.cs",
-              "ToolTip": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Data\\DatabaseContext.cs",
-              "RelativeToolTip": "HRS_2.0\\Data\\DatabaseContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T01:00:35.781Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "HRS_2.0\\Views\\Account\\Login.cshtml",
@@ -216,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Models\\User.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Models\\User.cs",
@@ -228,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "styles.css",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\wwwroot\\css\\styles.css",
               "RelativeDocumentMoniker": "HRS_2.0\\wwwroot\\css\\styles.css",
@@ -240,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Controllers\\HomeController.cs",
@@ -252,7 +323,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Program.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Program.cs",
@@ -264,7 +335,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "ActivityDirectoryService.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Repositories\\Implementation\\ActivityDirectoryService.cs",
@@ -276,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "IActiveDirectoryService.cs",
               "DocumentMoniker": "D:\\Github\\Kumpulan-Media-Karangkraf\\HRS\\HRS-2.0\\HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
               "RelativeDocumentMoniker": "HRS_2.0\\Repositories\\Abstract\\IActiveDirectoryService.cs",
